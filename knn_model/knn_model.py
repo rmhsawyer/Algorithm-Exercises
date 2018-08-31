@@ -145,7 +145,6 @@ def main():
 	class1_probs = flip(class1_probs,0)
 	class2_probs = flip(class2_probs,0)
 	class3_probs = flip(class3_probs,0)
-	
 	# plotdata(xtrain,ytrain)
 	plotpredict(xtrain,ytrain,knn_classifier)
 	plotprob(class1_probs,class2_probs,class3_probs)
