@@ -4,8 +4,8 @@ using namespace std;
 /* 
  *  Function Description: Sorting method using Quicksort Method 
  *  @param *array: Array to be sorted
- *  @param *low: lower bound of sorting range
- *  @oaram *high: uppper bound of sorting range 
+ *  @param low: lower bound of sorting range
+ *  @oaram high: uppper bound of sorting range 
  *  @return value: None
  * 	Complexity: O(NlogN)
 */
