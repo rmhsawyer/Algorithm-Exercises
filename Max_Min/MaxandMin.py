@@ -1,6 +1,8 @@
 import random
 
-
+"""
+A python test program to find the maximum and minimum of a list
+"""
 
 
 def main():
