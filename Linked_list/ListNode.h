@@ -73,10 +73,10 @@ bool detectCycle(ListNode* head) {
 
 // Ref: https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked-list/
 ListNode* findCycleStart(ListNode* head) {
-    int i=1;
+
     ListNode* temp1 = head->next;
     ListNode* temp2 = head->next->next;
-    ListNode* temp3 = head;
+
     while(temp1->val != temp2 ->val){
         temp1 = temp1->next;
         temp2 = temp2->next->next;
