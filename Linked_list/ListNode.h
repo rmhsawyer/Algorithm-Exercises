@@ -58,7 +58,7 @@ bool detectCycle(ListNode* head) {
     if(head == NULL || temp1 == NULL){
         return false;
     }
-    while(temp1->val != temp2 ->val){
+    while(temp1->next != temp2 ->next){
         temp1 = temp1->next;
         temp2 = temp2->next->next;
         if(temp1 == NULL || temp2 == NULL)
@@ -77,7 +77,7 @@ ListNode* findCycleStart(ListNode* head) {
     ListNode* temp1 = head->next;
     ListNode* temp2 = head->next->next;
 
-    while(temp1->val != temp2 ->val){
+    while(temp1->next != temp2 ->next){
         temp1 = temp1->next;
         temp2 = temp2->next->next;
         
